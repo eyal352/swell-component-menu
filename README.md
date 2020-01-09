@@ -1,4 +1,9 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Swell Widgets Creator Project
+
+The project is built in React, and uses two additional libraries: React-Router for navigating between pages, and React-Bootstrap for easier design and styling. Please familiarize yourself with the two projects before beginning to build.
+
+[React Router](https://reacttraining.com/react-router/web/guides/quick-start)
+[React BootStrap](https://react-bootstrap.github.io/layout/grid/)
 
 ## Available Scripts
 
@@ -66,3 +71,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
