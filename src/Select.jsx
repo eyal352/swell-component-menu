@@ -4,10 +4,10 @@ import { Form, Row, Col } from 'react-bootstrap';
 const Select = props => {
     const style = {textTransform:'capitalize'}
   return (
-    <Row>
-      <Col>
-        <Form.Group controlId={props.name}>
-          <Form.Label>{props.title}</Form.Label>
+    <Form.Group controlId={props.name}>
+      <Form.Label>{props.title}</Form.Label>
+      <Row>
+        <Col>
           <Form.Control
             as='select'
             name={props.name}
@@ -23,9 +23,9 @@ const Select = props => {
               );
             })}
           </Form.Control>
-        </Form.Group>
-      </Col>
-    </Row>
+        </Col>
+      </Row>
+    </Form.Group>
   );
 };
 

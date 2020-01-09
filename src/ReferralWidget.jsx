@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import { Form } from 'react-bootstrap';
+import { Form, Container } from 'react-bootstrap';
 import Select from './Select';
 import TextArea from './TextArea';
 import CheckBox  from './CheckBox';
-import { Container } from 'react-bootstrap';
 
-class Referral extends Component {
+class ReferralWidget extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -46,13 +45,6 @@ class Referral extends Component {
      // () => console.log(this.state)
       );
   }
-
-  copyToClipboard = e => {
-    this.textArea.select();
-    document.execCommand('copy');
-    e.target.focus();
-    this.setState({ copySuccess: 'Copied!' });
-  };
 
   render() {
     return (
@@ -113,26 +105,27 @@ class Referral extends Component {
           <p style={{ textAlign: 'center' }}>
             <b>Copy your referral widget code below:</b>
           </p>
+
           <pre>
             <code>
               {`       
-       <div class='swell-referral'
-            data-swell-referral-form-layout='${this.state.layoutDropDown}'
-            data-swell-referral-title="${this.state.titleInput}"
-            data-swell-referral-new-usertitle="${this.state.additionalText}"
-            data-swell-referral-new-user-placeholder=""
-            data-swell-referral-new-user-submit="${this.state.submitText}"
-            data-swell-referral-share-links='${this.state.selectedSocialShareOptions}'
-            data-swell-referral-exist-user-submit="${this.state.existingUserSubmitText}"
-            data-swell-referral-exist-user-placeholder=""
-            data-swell-referral-exist-user-title=""
-            data-swell-referral-share-links-title=""
-            data-swell-referral-popup-copy-link-text=""
-            data-swell-referral-popup-thank-title=""
-            data-swell-referral-popup-thank-text=""
-            data-swell-referral-pre-header=""
-            data-swell-referral-desc=""
-          ></div>
+        <div class='swell-referral'
+              data-swell-referral-form-layout="${this.state.layoutDropDown}"
+              data-swell-referral-title="${this.state.titleInput}"
+              data-swell-referral-new-usertitle="${this.state.additionalText}"
+              data-swell-referral-new-user-placeholder=""
+              data-swell-referral-new-user-submit="${this.state.submitText}"
+              data-swell-referral-share-links="${this.state.selectedSocialShareOptions}"
+              data-swell-referral-exist-user-submit="${this.state.existingUserSubmitText}"
+              data-swell-referral-exist-user-placeholder=""
+              data-swell-referral-exist-user-title=""
+              data-swell-referral-share-links-title=""
+              data-swell-referral-popup-copy-link-text=""
+              data-swell-referral-popup-thank-title=""
+              data-swell-referral-popup-thank-text=""
+              data-swell-referral-pre-header=""
+              data-swell-referral-desc=""
+            ></div>
         `}
             </code>
           </pre>
@@ -142,4 +135,4 @@ class Referral extends Component {
   }
 }
 
-export default Referral;
+export default ReferralWidget;
