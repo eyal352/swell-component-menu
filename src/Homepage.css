@@ -3,21 +3,21 @@
   text-align: center;
 }
 
-/* Referral Widget */
+/* Referral Widget and Campaigns Widget*/
 
-div.referral-form {
+div.referral-form, div.swell-campaigns {
   text-align: left;
   margin: auto;
   margin-top: 5rem;
   margin-bottom: 3rem;
 }
 
-div.referral-form h1 {
+div.referral-form h1, div.swell-campaigns h1{
   margin-bottom: 3rem;
   text-align: center;
 }
 
-div.referral-form pre {
+div.referral-form pre, div.swell-campaigns pre {
   border-radius: 4px;
   background-color: #f8f8f8;
 }
