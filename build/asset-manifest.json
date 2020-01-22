@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/swell-component-menu/static/css/main.4fa4bb72.chunk.css",
+    "main.js": "/swell-component-menu/static/js/main.675d0186.chunk.js",
+    "main.js.map": "/swell-component-menu/static/js/main.675d0186.chunk.js.map",
+    "runtime-main.js": "/swell-component-menu/static/js/runtime-main.4d741895.js",
+    "runtime-main.js.map": "/swell-component-menu/static/js/runtime-main.4d741895.js.map",
+    "static/css/2.64a99b10.chunk.css": "/swell-component-menu/static/css/2.64a99b10.chunk.css",
+    "static/js/2.71e4edc7.chunk.js": "/swell-component-menu/static/js/2.71e4edc7.chunk.js",
+    "static/js/2.71e4edc7.chunk.js.map": "/swell-component-menu/static/js/2.71e4edc7.chunk.js.map",
+    "index.html": "/swell-component-menu/index.html",
+    "precache-manifest.0b3f3c2dfbffcb8fda3e8ed4c708a93d.js": "/swell-component-menu/precache-manifest.0b3f3c2dfbffcb8fda3e8ed4c708a93d.js",
+    "service-worker.js": "/swell-component-menu/service-worker.js",
+    "static/css/2.64a99b10.chunk.css.map": "/swell-component-menu/static/css/2.64a99b10.chunk.css.map",
+    "static/css/main.4fa4bb72.chunk.css.map": "/swell-component-menu/static/css/main.4fa4bb72.chunk.css.map",
+    "static/js/2.71e4edc7.chunk.js.LICENSE": "/swell-component-menu/static/js/2.71e4edc7.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4d741895.js",
+    "static/css/2.64a99b10.chunk.css",
+    "static/js/2.71e4edc7.chunk.js",
+    "static/css/main.4fa4bb72.chunk.css",
+    "static/js/main.675d0186.chunk.js"
+  ]
+}
