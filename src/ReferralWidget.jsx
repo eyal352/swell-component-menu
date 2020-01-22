@@ -8,9 +8,9 @@ class ReferralWidget extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      titleInput: 'Swell Widgets Rule',
+      titleInput: 'This is the Title Header',
       layoutDropDown: 'single_row',
-      additionalText: 'Swell Rules. Everyone loves it. duh',
+      additionalText: 'This is the sub-header text.',
       submitText: 'Submit',
       existingUserSubmitText: 'Submit',
       selectedSocialShareOptions: ['facebook'],
@@ -57,6 +57,7 @@ class ReferralWidget extends Component {
               name='layoutDropDown'
               handleChange={this.handleInput}
               options={['single_row', 'double_row']}
+              value={this.state.layoutDropDown}
             />
 
             <TextArea
