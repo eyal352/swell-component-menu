@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/swell-component-menu/static/css/main.4dbf1ef6.chunk.css",
-    "main.js": "/swell-component-menu/static/js/main.18ddd0ee.chunk.js",
-    "main.js.map": "/swell-component-menu/static/js/main.18ddd0ee.chunk.js.map",
-    "runtime-main.js": "/swell-component-menu/static/js/runtime-main.4d741895.js",
-    "runtime-main.js.map": "/swell-component-menu/static/js/runtime-main.4d741895.js.map",
-    "static/css/2.64a99b10.chunk.css": "/swell-component-menu/static/css/2.64a99b10.chunk.css",
-    "static/js/2.ef933faa.chunk.js": "/swell-component-menu/static/js/2.ef933faa.chunk.js",
-    "static/js/2.ef933faa.chunk.js.map": "/swell-component-menu/static/js/2.ef933faa.chunk.js.map",
+    "main.css": "/swell-component-menu/static/css/main.4fa4bb72.chunk.css",
+    "main.js": "/swell-component-menu/static/js/main.77b70eb9.chunk.js",
+    "main.js.map": "/swell-component-menu/static/js/main.77b70eb9.chunk.js.map",
+    "runtime-main.js": "/swell-component-menu/static/js/runtime-main.9fdd1761.js",
+    "runtime-main.js.map": "/swell-component-menu/static/js/runtime-main.9fdd1761.js.map",
+    "static/css/2.67123b20.chunk.css": "/swell-component-menu/static/css/2.67123b20.chunk.css",
+    "static/js/2.31860771.chunk.js": "/swell-component-menu/static/js/2.31860771.chunk.js",
+    "static/js/2.31860771.chunk.js.map": "/swell-component-menu/static/js/2.31860771.chunk.js.map",
     "index.html": "/swell-component-menu/index.html",
-    "precache-manifest.3688c46258a6ffe8341620764664f667.js": "/swell-component-menu/precache-manifest.3688c46258a6ffe8341620764664f667.js",
+    "precache-manifest.98f84592fb655f5e60c307711ad65c62.js": "/swell-component-menu/precache-manifest.98f84592fb655f5e60c307711ad65c62.js",
     "service-worker.js": "/swell-component-menu/service-worker.js",
-    "static/css/2.64a99b10.chunk.css.map": "/swell-component-menu/static/css/2.64a99b10.chunk.css.map",
-    "static/css/main.4dbf1ef6.chunk.css.map": "/swell-component-menu/static/css/main.4dbf1ef6.chunk.css.map",
-    "static/js/2.ef933faa.chunk.js.LICENSE": "/swell-component-menu/static/js/2.ef933faa.chunk.js.LICENSE"
+    "static/css/2.67123b20.chunk.css.map": "/swell-component-menu/static/css/2.67123b20.chunk.css.map",
+    "static/css/main.4fa4bb72.chunk.css.map": "/swell-component-menu/static/css/main.4fa4bb72.chunk.css.map",
+    "static/js/2.31860771.chunk.js.LICENSE": "/swell-component-menu/static/js/2.31860771.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.4d741895.js",
-    "static/css/2.64a99b10.chunk.css",
-    "static/js/2.ef933faa.chunk.js",
-    "static/css/main.4dbf1ef6.chunk.css",
-    "static/js/main.18ddd0ee.chunk.js"
+    "static/js/runtime-main.9fdd1761.js",
+    "static/css/2.67123b20.chunk.css",
+    "static/js/2.31860771.chunk.js",
+    "static/css/main.4fa4bb72.chunk.css",
+    "static/js/main.77b70eb9.chunk.js"
   ]
 }
