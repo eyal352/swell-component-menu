@@ -5,6 +5,10 @@ The project is built in React, and uses two additional libraries: React-Router f
 [React Router](https://reacttraining.com/react-router/web/guides/quick-start) <br />
 [React BootStrap](https://react-bootstrap.github.io/layout/grid/)
 
+in order to get the dependencies working, 
+run: `npm install --save react-router`
+and `npm install react-bootstrap bootstrap`
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -16,6 +20,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
+
+### `npm run deploy`
+
+Build and deploy build to GitHub Pages
 
 ### `npm test`
 
